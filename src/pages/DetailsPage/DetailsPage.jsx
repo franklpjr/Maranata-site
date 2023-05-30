@@ -27,7 +27,7 @@ const DetailsPage = () => {
                 ) : (
                     <p>Página não encontrada.</p>
                 )}
-                <Link to="/">Voltar</Link>
+                <Link to="/Maranata-site">Voltar</Link>
             </div>
             <Footer />
         </div>
