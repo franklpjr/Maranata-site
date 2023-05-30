@@ -1,0 +1,46 @@
+.footer-wrapper {
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+    justify-content:space-between ;
+    align-items: center;
+}
+
+@media (max-width: 768px)
+{
+  .footer-wrapper
+   {
+    flex-direction: column;
+   }
+}
+
+.footer-img {
+    width: 100px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-img:hover {
+    width: 110px;
+}
+
+.footer-fjr {
+    background-color: black;
+    color: rgb(106, 106, 106);
+    padding: 1%;
+
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    color: brown;
+}
+
+.contato-wrapper {
+    display: block;
+    align-items: center;
+    text-align: center;
+    line-height: 50%;
+    color: gray;
+}
