@@ -8,8 +8,8 @@ const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="https://franklpjr.github.io/Maranata-site/" element={<HomePage />}/>
-                <Route path="/details/:id" element={<DetailsPage />}/>
+                <Route exact path="/Maranata-site/" element={<HomePage />}/>
+                <Route exact path="/details/:id" element={<DetailsPage />}/>
                 <Route path="*" element={<ErrorPage />}/>
             </Routes>
         </BrowserRouter>
