@@ -1,4 +1,4 @@
-import {NavLink, useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Nav/Navbar";
 import data from "../../data";
@@ -27,7 +27,7 @@ const DetailsPage = () => {
                 ) : (
                     <p>Página não encontrada.</p>
                 )}
-                <NavLink to="/Maranata-site/">Voltar</NavLink>
+                <Link to="/">Voltar</Link>
             </div>
             <Footer />
         </div>
