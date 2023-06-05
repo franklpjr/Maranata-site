@@ -1,6 +1,7 @@
 import "./Footer.css"
 import logomaranata5 from "../../assets/LOGOMARANATA5.png"
 
+
 function Footer() {
 
     return(

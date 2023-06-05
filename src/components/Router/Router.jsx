@@ -5,7 +5,7 @@ import HomePage from "../../pages/HomePage/HomePage";
 
 const Router = () => {
 
-    return (
+    return ( 
         <HashRouter>
             <Routes>
                 <Route path="/" element={<HomePage />}/>

@@ -12,7 +12,10 @@ const Nav = styled.nav`
   background-color: black;
   justify-content: space-between;
   .logo {
-    padding: 10px;
+    padding: 5px;
+  }
+  .header-img {
+    width: 45px;
   }
 `
 
@@ -20,7 +23,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-      <img className="header-img" src={logomaranata}  />
+        <img className="header-img" src={logomaranata} />
       </div>
       <Burger />
     </Nav>
