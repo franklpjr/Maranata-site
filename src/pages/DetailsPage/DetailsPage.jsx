@@ -29,7 +29,7 @@ const DetailsPage = () => {
                 ) : (
                     <p>Página não encontrada.</p>
                 )}
-                <Link to="/"><img src={homebutton} className="home-button"/></Link> {/* Ultima alteracao, troquei o NavLink por Link e troquei /Maranata-site por /            */}
+                {/*<Link to="/"><img src={homebutton} className="home-button"/></Link> {/* Ultima alteracao, troquei o NavLink por Link e troquei /Maranata-site por /            */}
             </div>
             <Footer />
         </div>

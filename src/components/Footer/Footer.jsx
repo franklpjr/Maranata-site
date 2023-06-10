@@ -10,7 +10,6 @@ function Footer() {
                 <div className="socialmedia col-sm">
                     <a href="https://www.instagram.com/maranata.clube/">Instagram</a>
                     <a href="https://www.facebook.com/maranataclube/">Facebook</a>
-                    <p>Youtube</p>
                 </div>
                 <img className="footer-img" src={logomaranata5}  />
                 <div className="contato-wrapper  col-sm">

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
 import logomaranata from "../../assets/LOGOMARANATA6.png"
+import { Link } from 'react-router-dom';
 
 const Nav = styled.nav`
   width: 100%;
@@ -17,14 +18,19 @@ const Nav = styled.nav`
   .header-img {
     width: 45px;
   }
+  .header-img:hover {
+    cursor: pointer;
+  }
 `
 
 const Navbar = () => {
   return (
     <Nav>
-      <div className="logo">
-        <img className="header-img" src={logomaranata} />
-      </div>
+      <Link to="/">
+        <div className="logo">
+          <img className="header-img" src={logomaranata} />
+        </div>
+      </Link>
       <Burger />
     </Nav>
   )
