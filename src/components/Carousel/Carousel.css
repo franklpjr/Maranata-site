@@ -1,4 +1,12 @@
 .teatro {
     width: 100%;
-    padding: 0px;
+    padding-top: 55px;
+}
+
+.carousel-area {
+    padding-top: 0px;
+}
+
+.carousel-control-next {
+    z-index: 0;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useCallback } from "react";
 import data from "../../data";
 import SectionsList from "../../components/SectionsList";
@@ -47,7 +47,12 @@ const RightNav = ({ open }) => {
     return (
       <div >
         <Ul open={open}>
-          <SectionsList sections={sections} onItemClick={handleOnItemClick} />
+          {/*<SectionsList sections={sections} onItemClick={handleOnItemClick} /> | Tirei essa parte do código pra criar novas páginas ao inves de utilizar um array data. Motivo: Não consegui criar o texto sobre a história.*/} 
+          <Link to ="/quemsomos/" className='header-list'>Quem somos</Link>
+          <Link to ="/nossahistoria/" className='header-list'>Nossa história</Link>
+          <Link to ="/" className='header-list'>Faça parte</Link>
+          <Link to ="/" className='header-list'>Sócio Maranata</Link>
+          <Link to ="/" className='header-list'>Loja</Link>
         </Ul>
       </div>
   )

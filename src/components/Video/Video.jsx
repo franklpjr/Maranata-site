@@ -7,13 +7,13 @@ function Video() {
         width: '100%',
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
-          autoplay: 1,
+          autoplay: 0,
         },
       };
     
     return(
         <div className="video-wrapper">
-            <YouTube videoId="-RAo5sK7IdA" className='video' opts={opts}/>
+            <YouTube videoId="-RAo5sK7IdA" opts={opts}/>
         </div>
     )
 }

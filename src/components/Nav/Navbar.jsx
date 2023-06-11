@@ -9,6 +9,8 @@ const Nav = styled.nav`
   height: 55px;
   padding: 0 20px;
   display: flex;
+  position: fixed;
+  z-index: 1;
   color: white;
   background-color: black;
   justify-content: space-between;
