@@ -8,7 +8,7 @@ import "./RightNav.css";
 
 const Ul = styled.ul`
   list-style: none;
-  z-index: 3;
+  z-index: 14;
   display: flex;
   flex-flow: row nowrap;
   li {
