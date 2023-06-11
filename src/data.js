@@ -11,7 +11,8 @@ const sections = [
     {
         id: "historia",
         name: "Nossa História",
-        description: "O Clube de Desbravadores Maranata iniciou suas atividades no dia 22 de Abril de 1972, na IASD de São Jorge localizada na Tv. Benjamim Lima n 227 no bairro de São Jorge, ele foi dirigido inicialmente pela jovem Solange Siqueira e o senhor Inácio Paulo, ele dirigiram o clube por bastante tempo até passarem as funções para as próximas gerações.",
+        description: 
+            "O Clube de Desbravadores Maranata iniciou suas atividades no dia 22 de Abril de 1972, na IASD de São Jorge localizada na Tv. Benjamim Lima n 227 no bairro de São Jorge, ele foi dirigido inicialmente pela jovem Solange Siqueira e o senhor Inácio Paulo, ele dirigiram o clube por bastante tempo até passarem as funções para as próximas gerações.",
         image: {
             alt: "",
             src: ""
